@@ -5,8 +5,6 @@ public class Student implements Comparable<Student>{
 	private String name;
 	private Integer age;
 	
-	
-	
 	public Student(String name, Integer age) {
 		super();
 		this.name = name;
@@ -27,6 +25,10 @@ public class Student implements Comparable<Student>{
 	
 	public int compareTo(Student student) {
 		return this.name.compareTo(getName());
+	}
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", age=" + age + "]";
 	}
 	
 	

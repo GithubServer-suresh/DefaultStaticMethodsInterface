@@ -16,7 +16,7 @@ public interface MyInterface {
 		System.out.println("Welcome "+ name);		
 	}
 	
-	public abstract Integer getMaxNum(List<Integer> intList); 
+	public abstract Integer getMinNum(List<Integer> intList); 
 	
 	
 }

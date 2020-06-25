@@ -8,7 +8,7 @@ import com.info.MyInterface;
 public class MyInterfaceImpl implements MyInterface {
 
 	@Override
-	public Integer getMaxNum(List<Integer> intList) {
+	public Integer getMinNum(List<Integer> intList) {
 		Integer min = Collections.min(intList);
 		return min;
 	}
