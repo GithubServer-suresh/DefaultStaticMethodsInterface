@@ -1,6 +1,7 @@
 package com.info;
 
 import java.util.Collections;
+
 import java.util.List;
 
 import com.info.model.Student;
@@ -17,6 +18,5 @@ public interface MyInterface {
 	}
 	
 	public abstract Integer getMinNum(List<Integer> intList); 
-	
-	
+		
 }

@@ -12,9 +12,12 @@ public class Client {
 
 	public static void main(String[] args) {
 		MyInterface myInterface = new MyInterfaceImpl();
+		MyInterface.greet("suresh");
+		
 		List<Student> stuList = new ArrayList<Student>();
 		stuList.add(new Student("suri",10));
-		stuList.add(new Student("suresh",20));
+		stuList.add(new Student("Naesh",20));
+		stuList.add(new Student("Naaesh",20));
 		System.out.println(stuList);
 		List<Integer> intList = Arrays.asList(1,7,9,10,2);
 		System.out.println(myInterface.getMinNum(intList));
@@ -23,5 +26,6 @@ public class Client {
 						new Student("suri2",40),
 						new Student("suri3",30));
 		System.out.println(stuList1);	
+		
 	}
 }
