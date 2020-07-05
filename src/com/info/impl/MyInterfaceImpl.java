@@ -12,4 +12,7 @@ public class MyInterfaceImpl implements MyInterface {
 		Integer min = Collections.min(intList);
 		return min;
 	}
+	
+	
+	
 }
